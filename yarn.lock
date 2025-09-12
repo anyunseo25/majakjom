@@ -800,6 +800,26 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.131.42"
 
+"@tanstack/react-router@^1.131.41":
+  version "1.131.41"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.131.41.tgz#7c01cc5d167c276342c9dbb2a7391624b4763d37"
+  integrity sha512-QEbTYpAosiD8e4qEZRr9aJipGSb8pQc+pfZwK6NCD2Tcxwu2oF6MVtwv0bIDLRpZP0VJMBpxXlTRISUDNMNqIA==
+  dependencies:
+    "@tanstack/history" "1.131.2"
+    "@tanstack/react-store" "^0.7.0"
+    "@tanstack/router-core" "1.131.41"
+    isbot "^5.1.22"
+    tiny-invariant "^1.3.3"
+    tiny-warning "^1.0.3"
+
+"@tanstack/react-store@^0.7.0":
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-store/-/react-store-0.7.5.tgz#a8cb11a5687bd322ab0ae20b651503c28b9ac6b1"
+  integrity sha512-A+WZtEnHZpvbKXm8qR+xndNKywBLez2KKKKEQc7w0Qs45GvY1LpRI3BTZNmELwEVim8+Apf99iEDH2J+MUIzlQ==
+  dependencies:
+    "@tanstack/store" "0.7.5"
+    use-sync-external-store "^1.5.0"
+
 "@tanstack/router-core@1.131.41":
   version "1.131.41"
   resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.131.41.tgz#ce8a5f9d21ecb5023bc36d2507194c6bd6c1b755"
@@ -877,7 +897,7 @@
     ansis "^4.1.0"
     diff "^8.0.2"
 
-"@tanstack/store@^0.7.0":
+"@tanstack/store@0.7.5", "@tanstack/store@^0.7.0":
   version "0.7.5"
   resolved "https://registry.yarnpkg.com/@tanstack/store/-/store-0.7.5.tgz#91c3ffa94a06add47aab917819e8032420fef628"
   integrity sha512-qd/OjkjaFRKqKU4Yjipaen/EOB9MyEg6Wr9fW103RBPACf1ZcKhbhcu2S5mj5IgdPib6xFIgCUti/mKVkl+fRw==
@@ -1618,6 +1638,11 @@ is-number@^7.0.0:
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
+isbot@^5.1.22:
+  version "5.1.30"
+  resolved "https://registry.yarnpkg.com/isbot/-/isbot-5.1.30.tgz#5bbb9ab341ec99501029ca2c283d06f5138f63c7"
+  integrity sha512-3wVJEonAns1OETX83uWsk5IAne2S5zfDcntD2hbtU23LelSqNXzXs9zKjMPOLMzroCgIjCfjYAEHrd2D6FOkiA==
+
 isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
@@ -2203,6 +2228,11 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
+
+use-sync-external-store@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.5.0.tgz#55122e2a3edd2a6c106174c27485e0fd59bcfca0"
+  integrity sha512-Rb46I4cGGVBmjamjphe8L/UnvJD+uPPtTkNvX5mZgqdbavhI4EbgIWJiIHXJ8bc/i9EQGPRh4DwEURJ552Do0A==
 
 vite@^7.1.2:
   version "7.1.5"
