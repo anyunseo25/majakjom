@@ -11,7 +11,7 @@ type YeockProps = {
   const Yeock: React.FC<YeockProps> = ({ title, link }) => {
   return (
     <div>
-    <Link to={link} className="flex px-3 py-5 mx-10 min-w-[780px]:justify-center mt-10 w-[60%] rounded-lg border-2 font-bold text-base sm:text-sm lg:text-2xl xl:text-3xl">
+    <Link to={link} className="flex px-3 py-5 mx-10 mt-10 rounded-lg border-2 font-bold text-base sm:text-sm lg:text-2xl xl:text-3xl">
         {title}
       </Link>
     </div>
