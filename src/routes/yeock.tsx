@@ -88,7 +88,7 @@ return (
         placeholder="역 검색기"
         className="flex-1 px-3 py-2 border rounded-lg"
       />
-      <button type="submit" className="px-4 py-2 rounded-lg">
+      <button type="submit" className="px-4 py-2 bg-black text-white rounded-lg">
         검색
       </button>
     </form>
