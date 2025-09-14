@@ -22,7 +22,7 @@ function RouteComponent() {
     <br />
     <br />
     <div className="p-4 relative text-5xl font-bold justify-center ml-6">작혼이란?</div>
-    <Link to="/" className="absolute grid place-items-center border-2 right-[calc(5%-15px)] top-[6%] border-black h-[70px] w-[130px] rounded-lg bg-white">돌아가기</Link>
+    <Link to="/" className="absolute grid place-items-center border-2 right-[calc(5%-15px)] md:top-2.5 md:text-[15px] md:w-32 md:h-20 lg:top-[6%] lg:h-[70px] lg:w-[130px] lg:text-[16px] rounded-lg">돌아가기</Link>
     <br />
     <br />
     <Yeockman title="작혼이란?" line="홍콩의 게임 개발사 캣푸드 스튜디오 제작, 요스타 배급의 리치 마작 게임입니다. 홍콩 제작이지만, 특이하게도 일본의 리치 마작 룰을 따릅니다!" />

@@ -13,8 +13,6 @@ import { Route as YeockRouteImport } from './routes/yeock'
 import { Route as ListRouteImport } from './routes/list'
 import { Route as JakhonRouteImport } from './routes/jakhon'
 import { Route as BasicRouteImport } from './routes/basic'
-import { Route as AboutRouteImport } from './routes/about'
-import { Route as IndexRouteImport } from './routes/index'
 import { Route as YeockYugookRouteImport } from './routes/yeock/yugook'
 import { Route as YeockYeockmanRouteImport } from './routes/yeock/yeockman'
 import { Route as YeockGuitarRouteImport } from './routes/yeock/guitar'
@@ -40,16 +38,6 @@ const JakhonRoute = JakhonRouteImport.update({
 const BasicRoute = BasicRouteImport.update({
   id: '/basic',
   path: '/basic',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AboutRoute = AboutRouteImport.update({
-  id: '/about',
-  path: '/about',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const YeockYugookRoute = YeockYugookRouteImport.update({
@@ -84,8 +72,6 @@ const Yeock1panRoute = Yeock1panRouteImport.update({
 } as any)
 
 export interface FileRoutesByFullPath {
-  '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/basic': typeof BasicRoute
   '/jakhon': typeof JakhonRoute
   '/list': typeof ListRoute
@@ -98,8 +84,6 @@ export interface FileRoutesByFullPath {
   '/yeock/yugook': typeof YeockYugookRoute
 }
 export interface FileRoutesByTo {
-  '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/basic': typeof BasicRoute
   '/jakhon': typeof JakhonRoute
   '/list': typeof ListRoute
@@ -113,8 +97,6 @@ export interface FileRoutesByTo {
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
-  '/': typeof IndexRoute
-  '/about': typeof AboutRoute
   '/basic': typeof BasicRoute
   '/jakhon': typeof JakhonRoute
   '/list': typeof ListRoute
@@ -129,8 +111,6 @@ export interface FileRoutesById {
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    | '/'
-    | '/about'
     | '/basic'
     | '/jakhon'
     | '/list'
@@ -143,8 +123,6 @@ export interface FileRouteTypes {
     | '/yeock/yugook'
   fileRoutesByTo: FileRoutesByTo
   to:
-    | '/'
-    | '/about'
     | '/basic'
     | '/jakhon'
     | '/list'
@@ -157,8 +135,6 @@ export interface FileRouteTypes {
     | '/yeock/yugook'
   id:
     | '__root__'
-    | '/'
-    | '/about'
     | '/basic'
     | '/jakhon'
     | '/list'
@@ -172,8 +148,6 @@ export interface FileRouteTypes {
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
-  IndexRoute: typeof IndexRoute
-  AboutRoute: typeof AboutRoute
   BasicRoute: typeof BasicRoute
   JakhonRoute: typeof JakhonRoute
   ListRoute: typeof ListRoute
@@ -208,20 +182,6 @@ declare module '@tanstack/react-router' {
       path: '/basic'
       fullPath: '/basic'
       preLoaderRoute: typeof BasicRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/yeock/yugook': {
@@ -290,8 +250,6 @@ const YeockRouteChildren: YeockRouteChildren = {
 const YeockRouteWithChildren = YeockRoute._addFileChildren(YeockRouteChildren)
 
 const rootRouteChildren: RootRouteChildren = {
-  IndexRoute: IndexRoute,
-  AboutRoute: AboutRoute,
   BasicRoute: BasicRoute,
   JakhonRoute: JakhonRoute,
   ListRoute: ListRoute,
