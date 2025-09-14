@@ -76,7 +76,7 @@ return (
         <br />
         <br />
         <p className="p-4 text-5xl font-bold ml-6">마작의 역</p>
-    <Link to="/" className="absolute grid place-items-center m-5 border-2 right-[5%] text-[13px] w-20 h-14 md:top-[6%] md:h-[70px] md:w-[130px] md:text-[16px] rounded-lg">돌아가기</Link>
+    <Link to="/" className="absolute grid place-items-center m-5 border-2 right-[5%] top-10 text-[13px] w-20 h-14 md:top-[6%] md:h-[70px] md:w-[130px] md:text-[16px] rounded-lg">돌아가기</Link>
     <br />
     
     <form onSubmit={onSubmit}

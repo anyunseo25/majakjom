@@ -22,7 +22,7 @@ function RouteComponent() {
     <br />
     <br />
     <div className="p-4 relative text-5xl font-bold justify-center ml-6">명예의 전당</div>
-    <Link to="/" className="absolute grid place-items-center m-5 border-2 right-[5%] text-[13px] w-20 h-14 md:top-[6%] md:h-[70px] md:w-[130px] md:text-[16px] rounded-lg">돌아가기</Link>
+    <Link to="/" className="absolute grid place-items-center m-5 border-2 right-[5%] text-[13px] top-10 w-20 h-14 md:top-[6%] md:h-[70px] md:w-[130px] md:text-[16px] rounded-lg">돌아가기</Link>
     <br />
     <br />
     <Yeockman title="최홍제" line=">>작사 2<<" />
