@@ -10,7 +10,7 @@ type YeockmanProps = {
 }
 
 function Yeockman({ title, line }: YeockmanProps) {
-    return <div className='border-2 border-black  px-6 m-10 rounded-lg w-[1500px] bg-white'>
+    return <div className='border-2 border-black  px-6 m-10 rounded-lg bg-white'>
     <p className='font-bold text-3xl pt-6'>{title}</p>
     <br />
     <p className='mt-2 text-xl pb-6 '>{line}</p>
