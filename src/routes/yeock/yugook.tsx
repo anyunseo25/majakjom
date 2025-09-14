@@ -61,7 +61,7 @@ function RouteComponent() {
       <br />
           <br />
           <p className="p-4 ml-6 text-5xl font-bold text-[#000000]">유국</p>
-      <Link to="/yeock" className="absolute grid place-items-center border-2 right-[calc(5%-15px)] md:top-2.5 md:text-[15px] md:w-32 md:h-20 lg:top-[6%] lg:h-[70px] lg:w-[130px] lg:text-[16px] rounded-lg">돌아가기</Link>
+      <Link to="/yeock" className="absolute grid place-items-center border-2 right-[calc(5%-15px)] m-5 text-[10px] w-20 h-14 md:top-[6%] md:h-[70px] md:w-[130px] md:text-[16px] rounded-lg">돌아가기</Link>
       <br />
       
       <form onSubmit={onSubmit} 

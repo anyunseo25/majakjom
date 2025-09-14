@@ -10,7 +10,7 @@ type YeockmanProps = {
 }
 
 function Yeockman({ title, line }: YeockmanProps) {
-    return <div className='border-2 border-black  px-6 m-10 rounded-lg w-[1500px] bg-white'>
+    return <div className='border-2 px-6 m-10 rounded-lg'>
     <p className='font-bold text-3xl pt-6'>{title}</p>
     <br />
     <p className='mt-2 text-xl pb-6 '>{line}</p>
@@ -22,7 +22,7 @@ function RouteComponent() {
     <br />
     <br />
     <div className="p-4 relative text-5xl font-bold justify-center ml-6">작혼이란?</div>
-    <Link to="/" className="absolute grid place-items-center border-2 right-[calc(5%-15px)] md:top-2.5 md:text-[15px] md:w-32 md:h-20 lg:top-[6%] lg:h-[70px] lg:w-[130px] lg:text-[16px] rounded-lg">돌아가기</Link>
+    <Link to="/" className="absolute grid place-items-center border-2 right-[calc(5%-15px)] m-5 text-[10px] w-20 h-14 md:top-[6%] md:h-[70px] md:w-[130px] md:text-[16px] rounded-lg">돌아가기</Link>
     <br />
     <br />
     <Yeockman title="작혼이란?" line="홍콩의 게임 개발사 캣푸드 스튜디오 제작, 요스타 배급의 리치 마작 게임입니다. 홍콩 제작이지만, 특이하게도 일본의 리치 마작 룰을 따릅니다!" />
