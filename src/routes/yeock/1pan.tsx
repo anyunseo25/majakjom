@@ -82,7 +82,7 @@ function RouteComponent() {
     <br />
     <br />
     <Yugook title="리치" line="아무것도 안 주워먹은 상태에서 텐파이, 즉 화료할 수 있게 되면 리치를 선언할 수 있다." />
-    <Yugook title="탕야오" line="1~8의 숫자패만 쓴다." />
+    <Yugook title="탕야오" line="2~8의 숫자패만 쓴다." />
     <Yugook title="멘젠쯔모" line="멘젠 상태에서 쯔모한다." />
     <Yugook title="역패 : 자풍패" line="내 위치의 풍패로 몸통을 만든다." />
     <Yugook title="역패 : 장풍패" line="현재 장의 풍패로 몸통을 만든다. 동풍전에서는 무조건 동." />
