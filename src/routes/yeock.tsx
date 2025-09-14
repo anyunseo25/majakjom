@@ -11,7 +11,7 @@ type YeockProps = {
   const Yeock: React.FC<YeockProps> = ({ title, link }) => {
   return (
     <div>
-    <Link to={link} className="flex px-3 py-5 mx-10 mt-10 w-[60%] border-2 font-bold text-base sm:text-sm lg:text-2xl xl:text-3xl">
+    <Link to={link} className="flex px-3 py-5 mx-10 min-w-[780px]:justify-center mt-10 w-[60%] rounded-lg border-2 font-bold text-base sm:text-sm lg:text-2xl xl:text-3xl">
         {title}
       </Link>
     </div>
@@ -76,7 +76,7 @@ return (
         <br />
         <br />
         <p className="p-4 text-5xl font-bold ml-6">마작의 역</p>
-    <Link to="/" className="absolute grid place-items-center border-2 right-[5%] min-w-[320px]:text-sm min-w-[768px]:top-5 min-w-[768px]:text-md min-w-[768px]:w-20 min-w-[768px]:h-14 top-[6%] h-[6%] w-[8%] rounded-lg ">돌아가기</Link>
+    <Link to="/" className="absolute grid place-items-center border-2 right-[5%] min-w-[768px]:top-5 min-w-[768px]:text-[10px] min-w-[768px]:w-20 min-w-[768px]:h-14 top-[6%] h-[6%] w-[8%] rounded-lg ">돌아가기</Link>
     <br />
     
     <form onSubmit={onSubmit}

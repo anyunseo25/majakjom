@@ -97,5 +97,4 @@ function RouteComponent() {
     <Yugook title="도라" line="왼쪽 위에 표시되는 도라패 다음 패. 1개 가질 때마다 1판 추가되며, 그 자체로는 역이 성립하지 않는다. 반짝거려서 예쁘다." />
     <Yugook title="적도라" line="빨간색 도라패. 숫자 5로 존재한다." />
     <Yugook title="북도라" line="3인 마작에서 북빼기를 치면 북도라 1판이 추가된다." />
-    <Link to="/yeock" className="border-2 right-[30px] border-black m-4 p-4 h-[40px] w-[50px] rounded-lg bg-white">돌아가기</Link>
   </div>}
