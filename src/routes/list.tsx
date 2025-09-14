@@ -10,7 +10,7 @@ type YeockmanProps = {
 }
 
 function Yeockman({ title, line }: YeockmanProps) {
-    return <div className='border-2 border-black  px-6 m-10 rounded-lg w-[1000px] bg-white'>
+    return <div className='border-2 border-black  px-6 m-10 rounded-lg bg-white'>
     <p className='font-bold text-3xl pt-6'>{title}</p>
     <br />
     <p className='mt-2 text-xl pb-6 '>{line}</p>
@@ -21,7 +21,7 @@ function RouteComponent() {
   return <div>
     <br />
     <br />
-    <div className="p-4 relative text-5xl font-bold justify-center ml-6">명예의 전당 (마작작작해라 회원 목록)</div>
+    <div className="p-4 relative text-5xl font-bold justify-center ml-6">명예의 전당</div>
     <Link to="/" className="absolute grid place-items-center border-2 right-[5%] top-[6%] border-black h-[70px] w-[130px] rounded-lg bg-white">돌아가기</Link>
     <br />
     <br />

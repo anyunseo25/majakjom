@@ -14,7 +14,7 @@ type RootProps = {
   const Root: React.FC<RootProps> = ({ title, link }) => {
   return (
     <div>
-    <Link to={link} className="flex px-3 py-5  mx-10 mt-10 w-[1000px] border-2 border-[#000000] bg-white rounded-lg text-[rgb(0,0,0)] font-bold text-base sm:text-sm lg:text-2xl xl:text-3xl">
+    <Link to={link} className="flex px-3 py-5  mx-10 mt-10 border-2 border-[#000000] bg-white rounded-lg text-[rgb(0,0,0)] font-bold text-base sm:text-sm lg:text-2xl xl:text-3xl">
         {title}
       </Link>
     </div>
@@ -41,7 +41,7 @@ function RootLayout() {
           <Root title="마작이란?" link="/basic" />
           <Root title="역" link="/yeock" />
           <Root title="작혼 - 리치마작" link="/jakhon" />
-          <Root title="명예의 전당 (마작작작해라 회원 목록)" link="/list" />
+          <Root title="명예의 전당" link="/list" />
           <TanStackRouterDevtools />
         </div>
         </>
