@@ -18,7 +18,7 @@ function Yeockman({ title, line }: YeockmanProps) {
 }
 
 function RouteComponent() {
-  return <div className='bg-[#006633]'>
+  return <div className='bg-[#006633] min-h-screen'>
     <br />
     <br />
     <div className="p-4 relative text-5xl text-white font-bold justify-center ml-6">마작이란?</div>

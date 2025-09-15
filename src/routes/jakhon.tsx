@@ -18,7 +18,7 @@ function Yeockman({ title, line }: YeockmanProps) {
 }
 
 function RouteComponent() {
-  return <div className='bg-[#006633]'>
+  return <div className='bg-[#006633] min-h-screen'>
     <br />
     <br />
     <div className="p-4 relative text-5xl font-bold justify-center text-white ml-6">작혼이란?</div>

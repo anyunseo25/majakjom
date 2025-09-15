@@ -57,7 +57,7 @@ function RouteComponent() {
         alert('역 없음…….')
       }
     }
-    return <div className='bg-[#006633]'>
+    return <div className='bg-[#006633] min-h-screen'>
       <br />
           <br />
           <p className="p-4 ml-6 text-5xl font-bold text-white">유국</p>
