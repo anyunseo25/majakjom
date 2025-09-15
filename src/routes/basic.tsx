@@ -35,4 +35,5 @@ function RouteComponent() {
     <a href="https://www.youtube.com/playlist?list=PLvefidUskLYXc8F9qkQ4wOf9J35X7lwc7"><Yeockman title="마작 입문에 좋은 영상이 있나요?" line="홍제 선배의 추천입니다!"/></ a>
     <Yeockman title="마작 관련 작품으로는 무엇이 있나요?" line="아카기, 도박묵시록 카이지 등이 있습니다!" />
     <Yeockman title="마작을 몰라도 마작작작해라에 들어갈 수 있나요?" line="당연합니다. 그냥 한번 경험해 보고 싶으셔도 편하게 부르시면 함께 쳐 드립니다. 모르는 것은 DM으로 물어보시면 뭐든지 답해드립니다!" />
-    <Yeockman title="님은 마작에 왜 이렇게 진심이에요?" line="타고난 도박꾼의 피가 흐릅니다. 솔리테어랑 포커랑 스파이더랑 고스톱 다 할 줄 압니다……. 나머지도 배우고 싶으시면 언제든지 연락 주세요!" /></div>}
+    <Yeockman title="님은 마작에 왜 이렇게 진심이에요?" line="타고난 도박꾼의 피가 흐릅니다. 솔리테어랑 포커랑 스파이더랑 고스톱 다 할 줄 압니다……. 나머지도 배우고 싶으시면 언제든지 연락 주세요!" />
+    <br / ></div>}

@@ -11,7 +11,7 @@ type GuitarProps = {
 }
 
 function Yugook({ title, line }: GuitarProps) {
-  return <div className='border-2  border-black m-10 p-4 rounded-lg bg-white'>
+  return <div className='border-2  border-black m-10 px-4 pt-4 rounded-lg bg-white'>
     <p className='font-bold text-xl'>{title}</p>
     <p className='mt-2'>{line}</p>
   </div>
@@ -85,4 +85,5 @@ function RouteComponent() {
     <br />
     <Yugook title="청일색" line="한 종류의 숫자패로만 화료한다. 이때, 패를 주워먹은 채로 화료했으면 5판으로 간주한다." />
     <Yugook title="유국만관" line="유국 상태에서 내 모든 패가 아무도 주워먹지 않은 요구패, 즉 1, 9, 동남서북백발중이었다면 성립한다." />
+    <br />
   </div>}

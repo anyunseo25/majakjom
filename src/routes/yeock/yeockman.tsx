@@ -11,7 +11,7 @@ type YeockmanProps = {
 }
 
 function Yeockman({ title, line }: YeockmanProps) {
-  return <div className='border-2 border-black m-10 p-4 rounded-lg bg-white'>
+  return <div className='border-2 border-black m-10 px-4 pt-4 rounded-lg bg-white'>
     <p className='font-bold text-xl'>{title}</p>
     <p className='mt-2'>{line}</p>
   </div>
@@ -98,4 +98,5 @@ function RouteComponent() {
     <Yeockman title="자일색" line="동, 남, 서, 북, 백, 발, 중만으로 화료한다." />
     <Yeockman title="구련보등" line="숫자패 한 종류로 1112345678999와 같은 종류의 숫자패를 하나 더 가진 용을 만든다." />
     <Yeockman title="순정구련보등" line="1112345678999 상태에서 구련보등을 만든다. 더블 역만." />
+    < br />
   </div>}

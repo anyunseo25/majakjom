@@ -29,6 +29,4 @@ function RouteComponent() {
     <Yeockman title="안동연" line="왜 잘하세요 진짜 질투나가지고" />
     <Yeockman title="김상윤" line="넣어달라고 해서 넣어줍니다" />
     <Yeockman title="안윤서" line="1002763100397 우리은행 안윤서" />
-    <br />
-    <br />
     <br /></div>}

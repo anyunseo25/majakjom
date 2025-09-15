@@ -56,7 +56,7 @@ function RouteComponent() {
       alert('역 없음…….')
     }
   }
-  return <div className="min-h-screen bg-[#006633]">
+  return <div className="min-h-dvh bg-[#006633]">
     <br />
         <br />
         <p className="p-4 ml-6 text-5xl font-bold text-[#ffffff]">2판</p>
@@ -91,4 +91,5 @@ function RouteComponent() {
     <Yugook title="찬타" line="몸통과 머리 모두에 요구패가 들어간다. 주워먹으면 1판 감소다." />
     <Yugook title="일기통관" line="숫자패 1종류로 123, 456, 789 몸통을 만든다. 주워먹으면 1판 감소다." />
     <Yugook title="삼색동순" line="똑같은 숫자패 3개를 슌쯔로 세 가지 색깔 모두 가진다. 주워먹으면 1판 감소다." />
+    <br />
   </div>}

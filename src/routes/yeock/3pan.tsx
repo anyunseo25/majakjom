@@ -85,4 +85,5 @@ function RouteComponent() {
     <Yugook title="량페코" line="이페코를 2개 만든다." />
     <Yugook title="준찬타" line="몸통 4개와 머리 1개에 모두 1 또는 9가 들어간다. 주워먹으면 1판 감소." />
     <Yugook title="혼일색" line="숫자패 한 종류와 자패만으로 화료한다." />
+    <br />
   </div>}

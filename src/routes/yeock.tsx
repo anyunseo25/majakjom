@@ -102,7 +102,7 @@ return (
         <Yeock title="역만 : 야, 너두 국사무쌍 칠 수 있어" link="/yeock/yeockman" />
         <Yeock title="유국 : 깡! 깡! 깡냐! 깡! 사깡유국!" link="/yeock/yugook" />
         <Yeock title="기타 : 절대 나올 리 없는 만관과 나올 수는 있는 유국" link="/yeock/guitar" />
-    
+    <br />
       </div>
     )}
   </>
