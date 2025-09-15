@@ -31,11 +31,11 @@ function RootLayout() {
     <>
       <Outlet />
       {!isHallOfFame && (
-        <>
+        <div className='bg-[#006633] min-h-screen'>
         <br />
         <br />
         <div>
-          <p className="p-4 text-5xl font-bold ml-6 text-[#000000]">마작작작해라</p>
+          <p className="p-4 text-5xl font-bold ml-6 text-[#ffffff]">마작작작해라</p>
           <br />
           <br />
           <Root title="마작이란?" link="/basic" />
@@ -44,7 +44,7 @@ function RootLayout() {
           <Root title="명예의 전당" link="/list" />
           <TanStackRouterDevtools />
         </div>
-        </>
+        </ div>
       )}
     </>
   )

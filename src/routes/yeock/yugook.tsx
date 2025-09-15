@@ -57,11 +57,11 @@ function RouteComponent() {
         alert('역 없음…….')
       }
     }
-    return <div>
+    return <div className='bg-[#006633]'>
       <br />
           <br />
-          <p className="p-4 ml-6 text-5xl font-bold text-[#000000]">유국</p>
-      <Link to="/yeock" className="absolute grid place-items-center border-2 right-[5%] md:right-[calc(5%-15px)] m-5 top-10 text-[13px] w-20 h-14 md:top-[6%] md:h-[70px] md:w-[130px] md:text-[16px] rounded-lg">돌아가기</Link>
+          <p className="p-4 ml-6 text-5xl font-bold text-white">유국</p>
+      <Link to="/yeock" className="absolute grid place-items-center bg-white text-[#cc0000] border-2 right-[5%] md:right-[calc(5%-15px)] m-5 top-10 text-[13px] w-20 h-14 md:top-[6%] md:h-[70px] md:w-[130px] md:text-[16px] rounded-lg">돌아가기</Link>
       <br />
       
       <form onSubmit={onSubmit} 
@@ -71,9 +71,9 @@ function RouteComponent() {
           value={term}
           onChange={(e) => setTerm(e.target.value)}
           placeholder="역 검색기"
-          className="flex-1 px-3 py-2 border rounded-lg"
+          className="flex-1 px-3 py-2 bg-white border rounded-lg"
         />
-        <button type="submit" className="px-4 py-2 bg-[#000000] text-white rounded-lg">
+        <button type="submit" className="px-4 py-2 bg-[#000000] text-[#009933] rounded-lg">
           검색
         </button>
       </form>

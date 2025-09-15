@@ -10,19 +10,19 @@ type YeockmanProps = {
 }
 
 function Yeockman({ title, line }: YeockmanProps) {
-    return <div className='border-2 border-black  px-6 m-10 rounded-lg bg-white'>
+    return <div className='border-2 border-black px-6 m-10 rounded-lg bg-white'>
     <p className='font-bold text-3xl pt-6'>{title}</p>
     <br />
-    <p className='mt-2 text-xl pb-6 '>{line}</p>
+    <p className='mt-2 text-xl pb-6'>{line}</p>
   </div>
 }
 
 function RouteComponent() {
-  return <div>
+  return <div className="bg-[#006633]">
     <br />
     <br />
-    <div className="p-4 relative text-5xl font-bold justify-center ml-6">명예의 전당</div>
-    <Link to="/" className="absolute grid place-items-center m-5 border-2 right-[5%] text-[13px] top-10 w-20 h-14 md:top-[6%] md:h-[70px] md:w-[130px] md:text-[16px] rounded-lg">돌아가기</Link>
+    <div className="p-4 relative text-5xl font-bold text-[#ffffff] justify-center ml-6">명예의 전당</div>
+    <Link to="/" className="absolute grid place-items-center m-5 border-2 right-[5%] text-[13px] top-10 w-20 h-14 md:top-[6%] md:h-[70px] md:w-[130px] md:text-[16px] bg-white text-[#009933] rounded-lg">돌아가기</Link>
     <br />
     <br />
     <Yeockman title="최홍제" line=">>작사 2<<" />

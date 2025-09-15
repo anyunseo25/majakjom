@@ -11,7 +11,7 @@ type YeockProps = {
   const Yeock: React.FC<YeockProps> = ({ title, link }) => {
   return (
     <div>
-    <Link to={link} className="flex px-3 py-5 mx-10 mt-10 rounded-lg border-2 font-bold text-base sm:text-sm lg:text-2xl xl:text-3xl">
+    <Link to={link} className="flex px-3 py-5 mx-10 mt-10 rounded-lg border-2 font-bold text-base sm:text-sm bg-white lg:text-2xl xl:text-3xl">
         {title}
       </Link>
     </div>
@@ -72,23 +72,23 @@ return (
   <>
   <Outlet />
     {!isHallOfFame && (
-      <div>
+      <div className='bg-[#006633] min-h-screen'>
         <br />
         <br />
-        <p className="p-4 text-5xl font-bold ml-6">마작의 역</p>
-    <Link to="/" className="absolute grid place-items-center m-5 border-2 right-[5%] top-10 text-[13px] w-20 h-14 md:top-[6%] md:h-[70px] md:w-[130px] md:text-[16px] rounded-lg">돌아가기</Link>
+        <p className="p-4 text-5xl font-bold ml-6 text-white">마작의 역</p>
+    <Link to="/" className="absolute grid place-items-center bg-white text-[#009933] m-5 border-2 right-[5%] top-10 text-[13px] w-20 h-14 md:top-[6%] md:h-[70px] md:w-[130px] md:text-[16px] rounded-lg">돌아가기</Link>
     <br />
     
     <form onSubmit={onSubmit}
-      className="absolute p-4 flex gap-2 ml-6 items-center">
+      className="absolute p-4 flex gap-2 ml-6 items-center ">
       <input
         type="search"
         value={term}
         onChange={(e) => setTerm(e.target.value)}
         placeholder="역 검색기"
-        className="flex-1 px-3 py-2 border rounded-lg"
+        className="flex-1 bg-white px-3 py-2 border rounded-lg"
       />
-      <button type="submit" className="px-4 py-2 bg-black text-white rounded-lg">
+      <button type="submit" className="px-4 py-2 bg-black text-[#cc0000] rounded-lg">
         검색
       </button>
     </form>
